@@ -1,0 +1,8 @@
+applications:
+ - name: list-spring-angular
+   memory: 512M
+   path: ./target/ng-spring-boot-1.0.0.jar
+   instances: 1
+   host: iw-list-dev
+   buildpack: java_buildpack
+
